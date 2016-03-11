@@ -42,7 +42,8 @@ namespace ClusterServer
                 Log.Fatal(e);
             }
         }
-        private static readonly ConcurrentDictionary<int, CancellationTokenSource> Tasks = new ConcurrentDictionary<int, CancellationTokenSource>();
+        private static readonly ConcurrentDictionary<string, CancellationTokenSource> Tasks = new ConcurrentDictionary<string, CancellationTokenSource>();
+
         private static Func<HttpListenerContext, Task> CreateCallback(ServerArguments parsedArguments)
         {   
             return async context =>
@@ -51,49 +52,69 @@ namespace ClusterServer
                 Log.Info(
                     $"Thread #{Thread.CurrentThread.ManagedThreadId} received request #{currentRequestId} at {DateTime.Now.TimeOfDay}");
 
-                var id = int.Parse(context.Request.QueryString["id"].Trim());
-                if (context.Request.QueryString["deny"] == "True")
+                var id = context.Request.UserHostAddress + "#" + GetTaskId(context);
+                if (IsDenyRequest(context))
                 {
-                    await DenyTask(id);
+                    DenyTask(id);
                 }
                 else
                 {
                     var ctSource = new CancellationTokenSource();
-                    var ct = ctSource.Token;
+                    var cancellationToken = ctSource.Token;
+                    // ReSharper disable once AccessToModifiedClosure не понял почему R# предлагает сделать вот так: О_о
+                    // var source = ctSource;
                     Tasks.AddOrUpdate(id, ctSource, (key, oldValue) => ctSource);
                     try
                     {
-                        await Task.Delay(parsedArguments.MethodDuration, ct);
+                        await Task.Delay(parsedArguments.MethodDuration, cancellationToken);
                     }
                     // Исключение возникает когда кто-то отменяет задачу с помощью ctSource
                     catch (TaskCanceledException)
                     {
                         return;
                     }
-                    var encryptedBytes = GetBase64HashBytes(context.Request.QueryString["query"], Encoding.UTF8);
-                    // ReSharper disable once MethodSupportsCancellation
-//                    if (context.Response.OutputStream != null)
-                    await context.Response.OutputStream.WriteAsync(encryptedBytes, 0, encryptedBytes.Length);
-
-                    Log.Info(
-                        $"Thread #{Thread.CurrentThread.ManagedThreadId} sent response #{currentRequestId} at {DateTime.Now.TimeOfDay}");
+                    await EvalAndSendResponse(context, currentRequestId, id);
                 }
             };
         }
 
-        private static async Task DenyTask(int id)
+        private static bool IsDenyRequest(HttpListenerContext context)
+        {
+            return context.Request.QueryString["deny"] == "True";
+        }
+
+        private static string GetTaskId(HttpListenerContext context)
+        {
+            return context.Request.QueryString["id"].Trim();
+        }
+
+        private static async Task EvalAndSendResponse(HttpListenerContext context, int currentRequestId, string id)
+        {
+            var encryptedBytes = GetBase64HashBytes(context.Request.QueryString["query"], Encoding.UTF8);
+            // ReSharper disable once MethodSupportsCancellation
+            await context.Response.OutputStream.WriteAsync(encryptedBytes, 0, encryptedBytes.Length);
+            RemoveFromTasks(id);
+            Log.Info(
+                $"Thread #{Thread.CurrentThread.ManagedThreadId} sent response #{currentRequestId} at {DateTime.Now.TimeOfDay}");
+        }
+
+        private static void RemoveFromTasks(string id)
+        {
+            CancellationTokenSource ctSource;
+            Tasks.TryRemove(id, out ctSource);
+        }
+
+        private static void DenyTask(string id)
         {
             try
             {
-                if (Tasks[id].Token.CanBeCanceled)
-                    Tasks[id].Cancel();
+                Tasks[id].Cancel();
             }
-            catch (KeyNotFoundException e)
+            catch (KeyNotFoundException)
             {
                 Log.Error($"Key not found : {id}");
             }
-            Log.Info($"Thread #{Thread.CurrentThread.ManagedThreadId} denied task #{id}");
-            await Task.CompletedTask;
+            Log.Info($"Thread #{Thread.CurrentThread.ManagedThreadId} denied task {id}");
         }
 
         private static byte[] GetBase64HashBytes(string query, Encoding encoding)

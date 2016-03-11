@@ -1,71 +1,72 @@
 [Start of logging]
-11.03.2016 21:37:15.420 INFO     1 Processing http://localhost:8060/?query=От&id=1&deny=False  
-11.03.2016 21:37:15.435 INFO     1 Processing http://localhost:8010/?query=От&id=1&deny=False  
-11.03.2016 21:37:15.436 INFO     1 Processing http://localhost:8020/?query=От&id=1&deny=False  
-11.03.2016 21:37:15.437 INFO     1 Processing http://localhost:8060/?query=топота&id=2&deny=False  
-11.03.2016 21:37:15.438 INFO     1 Processing http://localhost:8010/?query=топота&id=2&deny=False  
-11.03.2016 21:37:15.438 INFO     1 Processing http://localhost:8020/?query=топота&id=2&deny=False  
-11.03.2016 21:37:15.438 INFO     1 Processing http://localhost:8060/?query=копыт&id=3&deny=False  
-11.03.2016 21:37:15.438 INFO     1 Processing http://localhost:8010/?query=копыт&id=3&deny=False  
-11.03.2016 21:37:15.438 INFO     1 Processing http://localhost:8020/?query=копыт&id=3&deny=False  
-11.03.2016 21:37:15.438 INFO     1 Processing http://localhost:8060/?query=пыль&id=4&deny=False  
-11.03.2016 21:37:15.438 INFO     1 Processing http://localhost:8010/?query=пыль&id=4&deny=False  
-11.03.2016 21:37:15.438 INFO     1 Processing http://localhost:8020/?query=пыль&id=4&deny=False  
-11.03.2016 21:37:15.438 INFO     1 Processing http://localhost:8060/?query=по&id=5&deny=False  
-11.03.2016 21:37:15.438 INFO     1 Processing http://localhost:8010/?query=по&id=5&deny=False  
-11.03.2016 21:37:15.438 INFO     1 Processing http://localhost:8020/?query=по&id=5&deny=False  
-11.03.2016 21:37:15.439 INFO     1 Processing http://localhost:8060/?query=полю&id=6&deny=False  
-11.03.2016 21:37:15.439 INFO     1 Processing http://localhost:8010/?query=полю&id=6&deny=False  
-11.03.2016 21:37:15.439 INFO     1 Processing http://localhost:8020/?query=полю&id=6&deny=False  
-11.03.2016 21:37:15.439 INFO     1 Processing http://localhost:8060/?query=летит&id=7&deny=False  
-11.03.2016 21:37:15.439 INFO     1 Processing http://localhost:8010/?query=летит&id=7&deny=False  
-11.03.2016 21:37:15.439 INFO     1 Processing http://localhost:8020/?query=летит&id=7&deny=False  
-11.03.2016 21:37:15.439 INFO     1 Processing http://localhost:8060/?query=На&id=8&deny=False  
-11.03.2016 21:37:15.439 INFO     1 Processing http://localhost:8010/?query=На&id=8&deny=False  
-11.03.2016 21:37:15.439 INFO     1 Processing http://localhost:8020/?query=На&id=8&deny=False  
-11.03.2016 21:37:15.439 INFO     1 Processing http://localhost:8060/?query=дворе&id=9&deny=False  
-11.03.2016 21:37:15.439 INFO     1 Processing http://localhost:8010/?query=дворе&id=9&deny=False  
-11.03.2016 21:37:15.439 INFO     1 Processing http://localhost:8020/?query=дворе&id=9&deny=False  
-11.03.2016 21:37:15.439 INFO     1 Processing http://localhost:8060/?query=трава&id=10&deny=False  
-11.03.2016 21:37:15.439 INFO     1 Processing http://localhost:8010/?query=трава&id=10&deny=False  
-11.03.2016 21:37:15.439 INFO     1 Processing http://localhost:8020/?query=трава&id=10&deny=False  
-11.03.2016 21:37:15.439 INFO     1 Processing http://localhost:8060/?query=на&id=11&deny=False  
-11.03.2016 21:37:15.439 INFO     1 Processing http://localhost:8010/?query=на&id=11&deny=False  
-11.03.2016 21:37:15.439 INFO     1 Processing http://localhost:8020/?query=на&id=11&deny=False  
-11.03.2016 21:37:15.440 INFO     1 Processing http://localhost:8060/?query=траве&id=12&deny=False  
-11.03.2016 21:37:15.440 INFO     1 Processing http://localhost:8010/?query=траве&id=12&deny=False  
-11.03.2016 21:37:15.440 INFO     1 Processing http://localhost:8020/?query=траве&id=12&deny=False  
-11.03.2016 21:37:15.440 INFO     1 Processing http://localhost:8060/?query=дрова&id=13&deny=False  
-11.03.2016 21:37:15.440 INFO     1 Processing http://localhost:8010/?query=дрова&id=13&deny=False  
-11.03.2016 21:37:15.440 INFO     1 Processing http://localhost:8020/?query=дрова&id=13&deny=False  
-11.03.2016 21:37:15.893 INFO    12 Response from http://localhost:8020/?query=пыль&id=4&deny=False received in 454 ms  
-11.03.2016 21:37:15.893 INFO    11 Response from http://localhost:8020/?query=От&id=1&deny=False received in 457 ms  
-11.03.2016 21:37:15.896 INFO    10 Response from http://localhost:8020/?query=на&id=11&deny=False received in 456 ms  
-11.03.2016 21:37:15.896 INFO     9 Response from http://localhost:8020/?query=траве&id=12&deny=False received in 456 ms  
-11.03.2016 21:37:15.905 INFO    12 Response from http://localhost:8020/?query=трава&id=10&deny=False received in 465 ms  
-11.03.2016 21:37:15.906 INFO    12 Response from http://localhost:8020/?query=дрова&id=13&deny=False received in 465 ms  
-11.03.2016 21:37:15.906 INFO    11 Response from http://localhost:8020/?query=дворе&id=9&deny=False received in 466 ms  
-11.03.2016 21:37:15.906 INFO    12 Response from http://localhost:8020/?query=На&id=8&deny=False received in 466 ms  
-11.03.2016 21:37:15.908 INFO    11 Response from http://localhost:8020/?query=полю&id=6&deny=False received in 469 ms  
-11.03.2016 21:37:15.913 INFO    11 Response from http://localhost:8020/?query=топота&id=2&deny=False received in 475 ms  
-11.03.2016 21:37:15.918 INFO    10 Response from http://localhost:8020/?query=летит&id=7&deny=False received in 479 ms  
-11.03.2016 21:37:15.920 INFO    10 Response from http://localhost:8020/?query=копыт&id=3&deny=False received in 481 ms  
-11.03.2016 21:37:15.921 INFO    11 Response from http://localhost:8020/?query=по&id=5&deny=False received in 482 ms  
-11.03.2016 21:37:15.924 INFO    11 Response from http://localhost:8010/?query=От&id=1&deny=False received in 488 ms  
-11.03.2016 21:37:15.924 INFO    11 Response from http://localhost:8010/?query=пыль&id=4&deny=False received in 485 ms  
-11.03.2016 21:37:15.924 INFO    11 Response from http://localhost:8010/?query=траве&id=12&deny=False received in 484 ms  
-11.03.2016 21:37:15.925 INFO    11 Response from http://localhost:8060/?query=пыль&id=4&deny=False received in 486 ms  
-11.03.2016 21:37:15.925 INFO    11 Response from http://localhost:8010/?query=на&id=11&deny=False received in 485 ms  
-11.03.2016 21:37:15.926 INFO     9 Response from http://localhost:8060/?query=траве&id=12&deny=False received in 486 ms  
-11.03.2016 21:37:15.926 INFO    11 Response from http://localhost:8060/?query=трава&id=10&deny=False received in 487 ms  
-11.03.2016 21:37:15.928 INFO    11 Response from http://localhost:8010/?query=трава&id=10&deny=False received in 489 ms  
-11.03.2016 21:37:15.929 INFO     9 Response from http://localhost:8010/?query=полю&id=6&deny=False received in 490 ms  
-11.03.2016 21:37:15.929 INFO     9 Response from http://localhost:8010/?query=дрова&id=13&deny=False received in 489 ms  
-11.03.2016 21:37:15.929 INFO     9 Response from http://localhost:8010/?query=дворе&id=9&deny=False received in 490 ms  
-11.03.2016 21:37:15.930 INFO     9 Response from http://localhost:8010/?query=На&id=8&deny=False received in 490 ms  
-11.03.2016 21:37:15.930 INFO    11 Response from http://localhost:8010/?query=топота&id=2&deny=False received in 492 ms  
-11.03.2016 21:37:15.931 INFO    11 Response from http://localhost:8010/?query=по&id=5&deny=False received in 492 ms  
-11.03.2016 21:37:15.931 INFO    11 Response from http://localhost:8010/?query=летит&id=7&deny=False received in 492 ms  
-11.03.2016 21:37:15.931 INFO    11 Response from http://localhost:8010/?query=копыт&id=3&deny=False received in 493 ms  
+11.03.2016 23:10:50.165 INFO     1 Processing http://localhost:8060/?query=От&id=1&deny=False  
+11.03.2016 23:10:50.180 INFO     1 Processing http://localhost:8010/?query=От&id=1&deny=False  
+11.03.2016 23:10:50.180 INFO     1 Processing http://localhost:8020/?query=От&id=1&deny=False  
+11.03.2016 23:10:50.182 INFO     1 Processing http://localhost:8060/?query=топота&id=2&deny=False  
+11.03.2016 23:10:50.182 INFO     1 Processing http://localhost:8010/?query=топота&id=2&deny=False  
+11.03.2016 23:10:50.182 INFO     1 Processing http://localhost:8020/?query=топота&id=2&deny=False  
+11.03.2016 23:10:50.182 INFO     1 Processing http://localhost:8060/?query=копыт&id=3&deny=False  
+11.03.2016 23:10:50.182 INFO     1 Processing http://localhost:8010/?query=копыт&id=3&deny=False  
+11.03.2016 23:10:50.182 INFO     1 Processing http://localhost:8020/?query=копыт&id=3&deny=False  
+11.03.2016 23:10:50.182 INFO     1 Processing http://localhost:8060/?query=пыль&id=4&deny=False  
+11.03.2016 23:10:50.182 INFO     1 Processing http://localhost:8010/?query=пыль&id=4&deny=False  
+11.03.2016 23:10:50.182 INFO     1 Processing http://localhost:8020/?query=пыль&id=4&deny=False  
+11.03.2016 23:10:50.183 INFO     1 Processing http://localhost:8060/?query=по&id=5&deny=False  
+11.03.2016 23:10:50.183 INFO     1 Processing http://localhost:8010/?query=по&id=5&deny=False  
+11.03.2016 23:10:50.183 INFO     1 Processing http://localhost:8020/?query=по&id=5&deny=False  
+11.03.2016 23:10:50.183 INFO     1 Processing http://localhost:8060/?query=полю&id=6&deny=False  
+11.03.2016 23:10:50.183 INFO     1 Processing http://localhost:8010/?query=полю&id=6&deny=False  
+11.03.2016 23:10:50.183 INFO     1 Processing http://localhost:8020/?query=полю&id=6&deny=False  
+11.03.2016 23:10:50.183 INFO     1 Processing http://localhost:8060/?query=летит&id=7&deny=False  
+11.03.2016 23:10:50.183 INFO     1 Processing http://localhost:8010/?query=летит&id=7&deny=False  
+11.03.2016 23:10:50.183 INFO     1 Processing http://localhost:8020/?query=летит&id=7&deny=False  
+11.03.2016 23:10:50.183 INFO     1 Processing http://localhost:8060/?query=На&id=8&deny=False  
+11.03.2016 23:10:50.183 INFO     1 Processing http://localhost:8010/?query=На&id=8&deny=False  
+11.03.2016 23:10:50.183 INFO     1 Processing http://localhost:8020/?query=На&id=8&deny=False  
+11.03.2016 23:10:50.183 INFO     1 Processing http://localhost:8060/?query=дворе&id=9&deny=False  
+11.03.2016 23:10:50.183 INFO     1 Processing http://localhost:8010/?query=дворе&id=9&deny=False  
+11.03.2016 23:10:50.183 INFO     1 Processing http://localhost:8020/?query=дворе&id=9&deny=False  
+11.03.2016 23:10:50.183 INFO     1 Processing http://localhost:8060/?query=трава&id=10&deny=False  
+11.03.2016 23:10:50.184 INFO     1 Processing http://localhost:8010/?query=трава&id=10&deny=False  
+11.03.2016 23:10:50.184 INFO     1 Processing http://localhost:8020/?query=трава&id=10&deny=False  
+11.03.2016 23:10:50.184 INFO     1 Processing http://localhost:8060/?query=на&id=11&deny=False  
+11.03.2016 23:10:50.184 INFO     1 Processing http://localhost:8010/?query=на&id=11&deny=False  
+11.03.2016 23:10:50.184 INFO     1 Processing http://localhost:8020/?query=на&id=11&deny=False  
+11.03.2016 23:10:50.184 INFO     1 Processing http://localhost:8060/?query=траве&id=12&deny=False  
+11.03.2016 23:10:50.184 INFO     1 Processing http://localhost:8010/?query=траве&id=12&deny=False  
+11.03.2016 23:10:50.184 INFO     1 Processing http://localhost:8020/?query=траве&id=12&deny=False  
+11.03.2016 23:10:50.184 INFO     1 Processing http://localhost:8060/?query=дрова&id=13&deny=False  
+11.03.2016 23:10:50.184 INFO     1 Processing http://localhost:8010/?query=дрова&id=13&deny=False  
+11.03.2016 23:10:50.184 INFO     1 Processing http://localhost:8020/?query=дрова&id=13&deny=False  
+11.03.2016 23:10:50.634 INFO    11 Response from http://localhost:8020/?query=летит&id=7&deny=False received in 449 ms  
+11.03.2016 23:10:50.637 INFO    12 Response from http://localhost:8020/?query=траве&id=12&deny=False received in 452 ms  
+11.03.2016 23:10:50.639 INFO     9 Response from http://localhost:8020/?query=топота&id=2&deny=False received in 456 ms  
+11.03.2016 23:10:50.640 INFO     9 Response from http://localhost:8020/?query=дворе&id=9&deny=False received in 456 ms  
+11.03.2016 23:10:50.641 INFO     9 Response from http://localhost:8020/?query=трава&id=10&deny=False received in 457 ms  
+11.03.2016 23:10:50.643 INFO     9 Response from http://localhost:8020/?query=На&id=8&deny=False received in 458 ms  
+11.03.2016 23:10:50.645 INFO    12 Response from http://localhost:8020/?query=по&id=5&deny=False received in 461 ms  
+11.03.2016 23:10:50.649 INFO    12 Response from http://localhost:8020/?query=полю&id=6&deny=False received in 465 ms  
+11.03.2016 23:10:50.652 INFO    11 Response from http://localhost:8010/?query=траве&id=12&deny=False received in 467 ms  
+11.03.2016 23:10:50.652 INFO    12 Response from http://localhost:8010/?query=летит&id=7&deny=False received in 468 ms  
+11.03.2016 23:10:50.652 INFO    12 Response from http://localhost:8010/?query=по&id=5&deny=False received in 468 ms  
+11.03.2016 23:10:50.652 INFO    12 Response from http://localhost:8010/?query=дворе&id=9&deny=False received in 468 ms  
+11.03.2016 23:10:50.652 INFO    12 Response from http://localhost:8010/?query=топота&id=2&deny=False received in 469 ms  
+11.03.2016 23:10:50.652 INFO    12 Response from http://localhost:8010/?query=трава&id=10&deny=False received in 468 ms  
+11.03.2016 23:10:50.656 INFO    12 Response from http://localhost:8010/?query=На&id=8&deny=False received in 472 ms  
+11.03.2016 23:10:50.656 INFO     9 Response from http://localhost:8010/?query=полю&id=6&deny=False received in 472 ms  
+11.03.2016 23:10:50.657 INFO     9 Response from http://localhost:8060/?query=летит&id=7&deny=False received in 473 ms  
+11.03.2016 23:10:50.663 INFO     9 Response from http://localhost:8060/?query=топота&id=2&deny=False received in 480 ms  
+11.03.2016 23:10:50.667 INFO     9 Response from http://localhost:8060/?query=На&id=8&deny=False received in 483 ms  
+11.03.2016 23:10:50.669 INFO     9 Response from http://localhost:8020/?query=пыль&id=4&deny=False received in 485 ms  
+11.03.2016 23:10:50.669 INFO     9 Response from http://localhost:8020/?query=на&id=11&deny=False received in 485 ms  
+11.03.2016 23:10:50.669 INFO    12 Response from http://localhost:8060/?query=траве&id=12&deny=False received in 485 ms  
+11.03.2016 23:10:50.670 INFO     9 Response from http://localhost:8060/?query=дворе&id=9&deny=False received in 486 ms  
+11.03.2016 23:10:50.670 INFO    12 Response from http://localhost:8020/?query=От&id=1&deny=False received in 489 ms  
+11.03.2016 23:10:50.671 INFO    12 Response from http://localhost:8060/?query=по&id=5&deny=False received in 488 ms  
+11.03.2016 23:10:50.673 INFO    12 Response from http://localhost:8020/?query=копыт&id=3&deny=False received in 490 ms  
+11.03.2016 23:10:50.674 INFO    12 Response from http://localhost:8060/?query=От&id=1&deny=False received in 499 ms  
+11.03.2016 23:10:50.674 INFO    12 Response from http://localhost:8020/?query=дрова&id=13&deny=False received in 489 ms  
+11.03.2016 23:10:50.675 INFO    12 Response from http://localhost:8060/?query=на&id=11&deny=False received in 490 ms  
+11.03.2016 23:10:50.675 INFO    12 Response from http://localhost:8010/?query=От&id=1&deny=False received in 494 ms  
 [End of logging]
 
