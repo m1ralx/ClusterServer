@@ -1,3 +1,3 @@
 # Задача отмены задач на сервере
-## ClusterClient -> RequestAllClient - клиент, который умеет отменять задачи на сервере 
-## ClusterServer -> Program.cs - сервер, который умеет принимать запросы на отмену в функции, которую возвращает CreateCallback 
+### [RequestAllClient](https://github.com/mironov-alexey/ClusterServer/blob/master/ClusterClient/Clients/RequestAllClient.cs) - клиент, который умеет отменять задачи на сервере 
+### [ClusterServer](https://github.com/mironov-alexey/ClusterServer/blob/master/ClusterServer/Program.cs#L46) - сервер, который умеет принимать запросы на отмену
