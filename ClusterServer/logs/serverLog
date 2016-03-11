@@ -1,0 +1,40 @@
+[Start of logging]
+11.03.2016 21:37:15.485 INFO     4 Thread #4 received request #1 at 21:37:15.4836539  
+11.03.2016 21:37:15.492 INFO     6 Thread #6 received request #4 at 21:37:15.4846544  
+11.03.2016 21:37:15.493 INFO     5 Thread #5 received request #2 at 21:37:15.4836539  
+11.03.2016 21:37:15.492 INFO     3 Thread #3 received request #3 at 21:37:15.4846544  
+11.03.2016 21:37:15.498 INFO     6 Thread #6 received request #6 at 21:37:15.4986662  
+11.03.2016 21:37:15.499 INFO     4 Thread #4 received request #5 at 21:37:15.4986662  
+11.03.2016 21:37:15.499 INFO     6 Thread #6 received request #7 at 21:37:15.4996646  
+11.03.2016 21:37:15.499 INFO     4 Thread #4 received request #8 at 21:37:15.4996646  
+11.03.2016 21:37:15.499 INFO     6 Thread #6 received request #9 at 21:37:15.4996646  
+11.03.2016 21:37:15.499 INFO     4 Thread #4 received request #10 at 21:37:15.4996646  
+11.03.2016 21:37:15.499 INFO     6 Thread #6 received request #11 at 21:37:15.4996646  
+11.03.2016 21:37:15.499 INFO     4 Thread #4 received request #12 at 21:37:15.4996646  
+11.03.2016 21:37:15.499 INFO     6 Thread #6 received request #13 at 21:37:15.4996646  
+11.03.2016 21:37:15.907 INFO     4 Thread #4 received request #14 at 21:37:15.9076462  
+11.03.2016 21:37:15.909 INFO     6 Thread #6 received request #15 at 21:37:15.9096471  
+11.03.2016 21:37:15.909 INFO     3 Thread #3 received request #16 at 21:37:15.9096471  
+11.03.2016 21:37:15.910 INFO     5 Thread #5 received request #17 at 21:37:15.9096471  
+11.03.2016 21:37:15.912 INFO     3 Thread #3 denied task #4  
+11.03.2016 21:37:15.912 INFO     4 Thread #4 denied task #12  
+11.03.2016 21:37:15.912 INFO     6 Thread #6 denied task #1  
+11.03.2016 21:37:15.919 INFO     5 Thread #5 denied task #11  
+11.03.2016 21:37:15.927 INFO     5 Thread #5 received request #18 at 21:37:15.9276595  
+11.03.2016 21:37:15.928 INFO     5 Thread #5 denied task #10  
+11.03.2016 21:37:15.929 INFO     5 Thread #5 received request #19 at 21:37:15.9296604  
+11.03.2016 21:37:15.929 INFO     5 Thread #5 denied task #6  
+11.03.2016 21:37:15.929 INFO     5 Thread #5 received request #20 at 21:37:15.9296604  
+11.03.2016 21:37:15.929 INFO     5 Thread #5 denied task #13  
+11.03.2016 21:37:15.929 INFO     5 Thread #5 received request #21 at 21:37:15.9296604  
+11.03.2016 21:37:15.929 INFO     5 Thread #5 denied task #9  
+11.03.2016 21:37:15.930 INFO     5 Thread #5 received request #22 at 21:37:15.9306609  
+11.03.2016 21:37:15.930 INFO     5 Thread #5 denied task #8  
+11.03.2016 21:37:15.930 INFO     5 Thread #5 received request #23 at 21:37:15.9306609  
+11.03.2016 21:37:15.930 INFO     5 Thread #5 denied task #2  
+11.03.2016 21:37:15.930 INFO     5 Thread #5 received request #24 at 21:37:15.9306609  
+11.03.2016 21:37:15.931 INFO     5 Thread #5 denied task #5  
+11.03.2016 21:37:15.931 INFO     5 Thread #5 received request #25 at 21:37:15.9316642  
+11.03.2016 21:37:15.931 INFO     5 Thread #5 denied task #7  
+11.03.2016 21:37:15.931 INFO     5 Thread #5 received request #26 at 21:37:15.9316642  
+11.03.2016 21:37:15.931 INFO     5 Thread #5 denied task #3  

@@ -1,0 +1,66 @@
+[Start of logging]
+10.03.2016 15:52:16.205 INFO     4 Thread #4 received request #1 at 15:52:16.2038922  
+10.03.2016 15:52:16.209 INFO     3 Thread #3 received request #3 at 15:52:16.2048926  
+10.03.2016 15:52:16.209 INFO     5 Thread #5 received request #4 at 15:52:16.2048926  
+10.03.2016 15:52:16.216 INFO     3 PARSED ID 1 Deny = False  
+10.03.2016 15:52:16.216 INFO     4 PARSED ID 9 Deny = False  
+10.03.2016 15:52:16.206 INFO     6 Thread #6 received request #2 at 15:52:16.2038922  
+10.03.2016 15:52:16.217 INFO     6 PARSED ID 2 Deny = False  
+10.03.2016 15:52:16.217 INFO     5 PARSED ID 6 Deny = False  
+10.03.2016 15:52:16.218 INFO     3 Thread #3 received request #5 at 15:52:16.2189024  
+10.03.2016 15:52:16.218 INFO     3 PARSED ID 11 Deny = False  
+10.03.2016 15:52:16.218 INFO     3 Thread #3 received request #6 at 15:52:16.2189024  
+10.03.2016 15:52:16.219 INFO     3 PARSED ID 4 Deny = False  
+10.03.2016 15:52:16.219 INFO     3 Thread #3 received request #7 at 15:52:16.2199028  
+10.03.2016 15:52:16.219 INFO     3 PARSED ID 13 Deny = False  
+10.03.2016 15:52:16.219 INFO     3 Thread #3 received request #8 at 15:52:16.2199028  
+10.03.2016 15:52:16.219 INFO     3 PARSED ID 12 Deny = False  
+10.03.2016 15:52:16.219 INFO     3 Thread #3 received request #9 at 15:52:16.2199028  
+10.03.2016 15:52:16.219 INFO     3 PARSED ID 10 Deny = False  
+10.03.2016 15:52:16.219 INFO     6 Thread #6 received request #10 at 15:52:16.2199028  
+10.03.2016 15:52:16.219 INFO     3 Thread #3 received request #11 at 15:52:16.2199028  
+10.03.2016 15:52:16.219 INFO     6 PARSED ID 8 Deny = False  
+10.03.2016 15:52:16.219 INFO     3 PARSED ID 7 Deny = False  
+10.03.2016 15:52:16.219 INFO     6 Thread #6 received request #12 at 15:52:16.2199028  
+10.03.2016 15:52:16.219 INFO     3 Thread #3 received request #13 at 15:52:16.2199028  
+10.03.2016 15:52:16.219 INFO     6 PARSED ID 5 Deny = False  
+10.03.2016 15:52:16.219 INFO     3 PARSED ID 3 Deny = False  
+10.03.2016 15:52:16.592 INFO     6 Thread #6 received request #14 at 15:52:16.5926536  
+10.03.2016 15:52:16.593 INFO     6 PARSED ID 1 Deny = True  
+10.03.2016 15:52:16.594 INFO     5 Thread #5 received request #15 at 15:52:16.5946549  
+10.03.2016 15:52:16.594 INFO     5 PARSED ID 2 Deny = True  
+10.03.2016 15:52:16.597 INFO     5 TASK 2 DENIED  
+10.03.2016 15:52:16.597 INFO     6 TASK 1 DENIED  
+10.03.2016 15:52:16.633 INFO     4 Thread #4 received request #16 at 15:52:16.6336811  
+10.03.2016 15:52:16.633 INFO     4 PARSED ID 11 Deny = True  
+10.03.2016 15:52:16.634 INFO     4 TASK 11 DENIED  
+10.03.2016 15:52:16.634 INFO     6 Thread #6 received request #17 at 15:52:16.6346816  
+10.03.2016 15:52:16.634 INFO     5 Thread #5 received request #18 at 15:52:16.6346816  
+10.03.2016 15:52:16.634 INFO     6 PARSED ID 7 Deny = True  
+10.03.2016 15:52:16.634 INFO     5 PARSED ID 8 Deny = True  
+10.03.2016 15:52:16.635 INFO     5 TASK 8 DENIED  
+10.03.2016 15:52:16.635 INFO     6 TASK 7 DENIED  
+10.03.2016 15:52:16.635 INFO     5 Thread #5 received request #19 at 15:52:16.6356829  
+10.03.2016 15:52:16.635 INFO     6 Thread #6 received request #20 at 15:52:16.6356829  
+10.03.2016 15:52:16.635 INFO     5 PARSED ID 9 Deny = True  
+10.03.2016 15:52:16.635 INFO     6 PARSED ID 10 Deny = True  
+10.03.2016 15:52:16.635 INFO     6 TASK 10 DENIED  
+10.03.2016 15:52:16.635 INFO     5 TASK 9 DENIED  
+10.03.2016 15:52:16.635 INFO     5 Thread #5 received request #21 at 15:52:16.6356829  
+10.03.2016 15:52:16.635 INFO     5 PARSED ID 3 Deny = True  
+10.03.2016 15:52:16.635 INFO     6 Thread #6 received request #22 at 15:52:16.6356829  
+10.03.2016 15:52:16.635 INFO     6 PARSED ID 12 Deny = True  
+10.03.2016 15:52:16.635 INFO     5 TASK 3 DENIED  
+10.03.2016 15:52:16.635 INFO     6 TASK 12 DENIED  
+10.03.2016 15:52:16.635 INFO     5 Thread #5 received request #23 at 15:52:16.6356829  
+10.03.2016 15:52:16.635 INFO     6 Thread #6 received request #24 at 15:52:16.6356829  
+10.03.2016 15:52:16.635 INFO     5 PARSED ID 4 Deny = True  
+10.03.2016 15:52:16.635 INFO     6 PARSED ID 5 Deny = True  
+10.03.2016 15:52:16.636 INFO     5 TASK 4 DENIED  
+10.03.2016 15:52:16.636 INFO     6 TASK 5 DENIED  
+10.03.2016 15:52:16.652 INFO     5 Thread #5 received request #25 at 15:52:16.6526936  
+10.03.2016 15:52:16.652 INFO     5 PARSED ID 13 Deny = True  
+10.03.2016 15:52:16.653 INFO     5 TASK 13 DENIED  
+10.03.2016 15:52:16.654 INFO     6 Thread #6 received request #26 at 15:52:16.6546949  
+10.03.2016 15:52:16.654 INFO     6 PARSED ID 6 Deny = True  
+10.03.2016 15:52:16.654 INFO     6 TASK 6 DENIED  
